@@ -16,20 +16,20 @@ switch(startMenu) {
         do {
         attempt = prompt('Adivinhe o número secreto (entre 1 e 10):')
 
-    if (attempt == secretNumber) {
-        alert(`Parabéns ${playerName}, você adivinhou o número secreto!`)
-    break
-    } else if (attempt > secretNumber) {
-        alert('O número secreto é menor.')
-    } else {
-        alert('O número secreto é maior.')
-    }
-
-
-    for (remainingAttempts; remainingAttempts--;) {
-        alert(`Você tem ${remainingAttempts} tentativas restantes.`)
+        if (attempt == secretNumber) {
+            alert(`Parabéns ${playerName}, você adivinhou o número secreto!`)
         break
-    }
+        } else if (attempt > secretNumber) {
+            alert('O número secreto é menor.')
+        } else {
+            alert('O número secreto é maior.')
+        }
+
+
+        for (remainingAttempts; remainingAttempts--;) {
+            alert(`Você tem ${remainingAttempts} tentativas restantes.`)
+            break
+        }
 
     } while (remainingAttempts > 0)
 
