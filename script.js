@@ -1,5 +1,5 @@
 const playerName = prompt('Olá, cidadão(ã), como se chama?')
-let startMenu = prompt(`Seja bem-vindo(a), ${playerName}!
+const startMenu = prompt(`Seja bem-vindo(a), ${playerName}!
 Escolha uma das opções abaixo para começar.
 
 1- Jogar
