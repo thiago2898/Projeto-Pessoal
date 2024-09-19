@@ -40,7 +40,7 @@ switch(startMenu) {
         break
     }
 
-        break
+        break // Refere-se ao case 1.
 
     case '2':
         alert('Ok, espero você de volta.')
